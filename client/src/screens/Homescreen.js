@@ -29,7 +29,7 @@ const Homescreen = () => {
 
             } catch (error) {
                 seterror(true);
-                console.log(error);
+                
                 setloading(false);
             }
 
